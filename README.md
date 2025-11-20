@@ -20,9 +20,7 @@ This application functions as a complete, self-contained classified ads platform
 * **Detailed Views:** Clicking any ad from the search results leads to a detailed view with complete information.
 * **Client-Side Validation:** The registration form uses JavaScript to provide real-time validation feedback to the user, improving the user experience.
 
-> **[Image: Screenshot of the Home Page (index.html)]**
->
-> *(**Developer Note:** Place a screenshot of your main search/index page here.)*
+![Image: Screenshot of the Home Page (index.html)](.media/main_page.png)
 
 ---
 
@@ -39,9 +37,8 @@ This application functions as a complete, self-contained classified ads platform
 * **Styling:** **CSS** (in `static/mystyle.css`).
 * **Interactivity:** **JavaScript** (in `static/myjs.js`) is used for client-side form validation, ensuring fields like email and password meet requirements before submitting.
 
-> **[Image: Screenshot of the User Advertisements Page (user_advertisements.html)]**
->
-> *(**Developer Note:** Place a screenshot of the "My Ads" page here to show the user-specific functionality.)*
+![Image: Screenshot of the User Advertisements Page (user_advertisements.html)](.media/my_ads_page.png)
+![Image: Screenshot of the User Profile Page (profile.html)](.media/my_profile_page.png)
 
 ### Database Schema
 The SQLite database (`website.db`) consists of three primary tables, established by `dbscript.py`:
