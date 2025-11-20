@@ -55,31 +55,30 @@ The SQLite database (`website.db`) consists of three primary tables, established
 * Python 3
 * Flask (`pip install Flask`)
 * Flask-Login (`pip install flask-login`)
-* Flask-SQLAlchemy (`pip install Flask-SQLAlchemy`) - *Note: Based on the `dbscript.py`, you are using raw SQLite commands, but if `app.py` uses SQLAlchemy, this is needed.*
 
 ### 2. Setup
 1.  Clone the repository.
 2.  (Optional but Recommended) Create and activate a Python virtual environment:
-  	 ```bash
-  	 python -m venv venv
-  	 source venv/bin/activate  # On Windows: venv\Scripts\activate
-  	 ```
+     ```bash
+     python -m venv venv
+     source venv/bin/activate  # On Windows: venv\Scripts\activate
+     ```
 3.  Install the required packages:
-  	 ```bash
-  	 pip install Flask flask-login
-  	 ```
+     ```bash
+     pip install Flask flask-login
+     ```
 4.  Initialize the database. **Run this script only once.**
-  	 ```bash
-  	 python dbscript.py
-  	 ```
-  	 This will create `website.db` and populate it with sample categories.
+     ```bash
+     python dbscript.py
+     ```
+     This will create `website.db` and populate it with sample categories.
 
 ### 3. Run the Application
 1.  Run the Flask server:
-  	 ```bash
-  	 python app.py
-  	 ```
+     ```bash
+     python app.py
+     ```
 2.  Open your web browser and navigate to:
-  	 ```
-  	 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
-  	 ```
+     ```
+     [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+     ```
