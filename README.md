@@ -38,7 +38,7 @@ This application functions as a complete, self-contained classified ads platform
 * **Interactivity:** **JavaScript** (in `static/myjs.js`) is used for client-side form validation, ensuring fields like email and password meet requirements before submitting.
 
 ![Image: Screenshot of the User Advertisements Page (user_advertisements.html)](.media/my_ads_page.png)
-
+![Image: Screenshot of the User Profile Page (profile.html)](.media/my_profile_page.png)
 
 ### Database Schema
 The SQLite database (`website.db`) consists of three primary tables, established by `dbscript.py`:
